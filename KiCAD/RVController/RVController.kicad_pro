@@ -48,7 +48,13 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -112,8 +118,24 @@
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.3,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.5
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -414,6 +436,38 @@
     [
       "355bf588-9177-4b39-ae13-bef1bf65addf",
       ""
+    ],
+    [
+      "0478ce80-92fa-4924-9f3c-8b799ce3732d",
+      "PWM1"
+    ],
+    [
+      "8d965751-30dd-416b-888b-8d24b312a4e2",
+      "PWM2"
+    ],
+    [
+      "b31d78d0-6cf4-4af5-8907-b8e33c1ccd43",
+      "PWM3"
+    ],
+    [
+      "b0a3a223-eb2f-4c2c-8a26-9bd142d4d36f",
+      "PWM4"
+    ],
+    [
+      "a055db99-6ae3-47e4-97eb-6df91963a253",
+      "PWM5"
+    ],
+    [
+      "58ad38d8-0b80-4fe8-9cbf-b90de4537dad",
+      "PWM6"
+    ],
+    [
+      "f52e3f1c-82aa-4f87-a7c1-acbfe6da4cab",
+      "PWM7"
+    ],
+    [
+      "13e5e3b8-30be-4b40-ab2f-678a24a7ba40",
+      "PWM8"
     ]
   ],
   "text_variables": {}
