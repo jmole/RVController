@@ -443,7 +443,7 @@
     (uuid 90500c00-520b-41e3-8d60-083ee7bb6bfc)
     (property "Reference" "Q1" (id 0) (at 90.17 81.28 0))
     (property "Value" "EPC2014C" (id 1) (at 92.71 83.82 0))
-    (property "Footprint" "TRANS_EPC2014C" (id 2) (at 78.74 80.01 0)
+    (property "Footprint" "Footprints:TRANS_EPC2014C" (id 2) (at 78.74 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 78.74 80.01 0)
