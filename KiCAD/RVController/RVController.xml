@@ -1,0 +1,2910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/jmole/Documents/GitHub/RVController/KiCAD/RVController/RVController.kicad_sch</source>
+    <date>Sunday, August 07, 2022 at 10:08:26 PM</date>
+    <tool>Eeschema (6.0.7-1)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>RVController.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/PWM1/" tstamps="/0478ce80-92fa-4924-9f3c-8b799ce3732d/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pwm.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/PWM2/" tstamps="/8d965751-30dd-416b-888b-8d24b312a4e2/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pwm.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/PWM3/" tstamps="/b31d78d0-6cf4-4af5-8907-b8e33c1ccd43/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pwm.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/PWM4/" tstamps="/b0a3a223-eb2f-4c2c-8a26-9bd142d4d36f/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pwm.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/PWM5/" tstamps="/a055db99-6ae3-47e4-97eb-6df91963a253/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pwm.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/PWM6/" tstamps="/58ad38d8-0b80-4fe8-9cbf-b90de4537dad/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pwm.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/PWM7/" tstamps="/f52e3f1c-82aa-4f87-a7c1-acbfe6da4cab/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pwm.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/PWM8/" tstamps="/13e5e3b8-30be-4b40-ab2f-678a24a7ba40/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pwm.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10UF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="PN">CL31B106KAHNFNE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="PN" value="CL31B106KAHNFNE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce294e63-77f7-4aa9-b42a-f424cc7818cd</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <fields>
+        <field name="PN">EEH-AZF1V101B</field>
+        <field name="Voltage">35V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="PN" value="EEH-AZF1V101B"/>
+      <property name="Voltage" value="35V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>28e298da-ab3d-4d14-90a6-2c374a92b9e0</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>C</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <fields>
+        <field name="PN">A758EK107M1AAAE016</field>
+        <field name="Part Number">A758EK107M1AAAE016</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Part Number" value="A758EK107M1AAAE016"/>
+      <property name="Voltage" value="10V"/>
+      <property name="PN" value="A758EK107M1AAAE016"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>890e840b-c845-431c-8dfc-71a99c345ecc</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <fields>
+        <field name="PN">A758EK107M1AAAE016</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="PN" value="A758EK107M1AAAE016"/>
+      <property name="Voltage" value="10V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0821f33a-a700-4cde-ac28-7b211c4134d5</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <fields>
+        <field name="PN">A758EK107M1AAAE016</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="PN" value="A758EK107M1AAAE016"/>
+      <property name="Voltage" value="10V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e9ee0d7-78ea-4436-9dc1-ffaf86647f26</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10UF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="PN">CL31B106KAHNFNE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="PN" value="CL31B106KAHNFNE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>efe7f057-67d1-4ed6-8916-d090ed21bf36</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10UF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="PN">CL31B106KAHNFNE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="PN" value="CL31B106KAHNFNE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>858b86d3-878a-4e70-8911-b2d80345f867</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>4700pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="PN">CGA3E2C0G1H472J080AA</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="PN" value="CGA3E2C0G1H472J080AA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12bf394b-0640-46c1-aead-9f0708124223</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>SS16MH</value>
+      <footprint>Footprints:SODFL2512X73N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="PN">SS16MH</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="" part="SS16MH_5" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.73 mm"/>
+      <property name="PARTREV" value="O2103"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Taiwan Semiconductor"/>
+      <property name="PN" value="SS16MH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a79d3e61-7062-46cc-a292-a36962a54b34</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>SS16MH</value>
+      <footprint>Footprints:SODFL2512X73N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="PN">SS16MH</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="" part="SS16MH_4" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.73 mm"/>
+      <property name="PARTREV" value="O2103"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Taiwan Semiconductor"/>
+      <property name="PN" value="SS16MH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>efe85375-9fa4-44e7-9076-4d3b602eb732</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>SS16MH</value>
+      <footprint>Footprints:SODFL2512X73N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="PN">SS16MH</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="" part="SS16MH_6" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.73 mm"/>
+      <property name="PARTREV" value="O2103"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Taiwan Semiconductor"/>
+      <property name="PN" value="SS16MH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39f6b4aa-65e2-48bc-b783-a2030ab79d0f</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>SS16MH</value>
+      <footprint>Footprints:SODFL2512X73N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="PN">SS16MH</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="" part="SS16MH_13" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.73 mm"/>
+      <property name="PARTREV" value="O2103"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Taiwan Semiconductor"/>
+      <property name="PN" value="SS16MH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ea88de2-e510-459f-baec-5141238a85dd</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>SS16MH</value>
+      <footprint>Footprints:SODFL2512X73N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="PN">SS16MH</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="" part="SS16MH_12" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.73 mm"/>
+      <property name="PARTREV" value="O2103"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Taiwan Semiconductor"/>
+      <property name="PN" value="SS16MH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be761e27-58fe-466f-b846-f1b7ad47f69f</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>SS16MH</value>
+      <footprint>Footprints:SODFL2512X73N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="PN">SS16MH</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="" part="SS16MH_11" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.73 mm"/>
+      <property name="PARTREV" value="O2103"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Taiwan Semiconductor"/>
+      <property name="PN" value="SS16MH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79af0c69-8af5-4195-a49e-991531e3d524</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>SS16MH</value>
+      <footprint>Footprints:SODFL2512X73N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="PN">SS16MH</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="" part="SS16MH_1" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.73 mm"/>
+      <property name="PARTREV" value="O2103"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Taiwan Semiconductor"/>
+      <property name="PN" value="SS16MH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ab232fe-6c3a-4009-ab19-752a1526f3c7</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>SS16MH</value>
+      <footprint>Footprints:SODFL2512X73N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="PN">SS16MH</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="" part="SS16MH_3" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.73 mm"/>
+      <property name="PARTREV" value="O2103"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Taiwan Semiconductor"/>
+      <property name="PN" value="SS16MH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cea90f64-be4b-48d6-83ae-6011b56fca9b</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>SS16MH</value>
+      <footprint>Footprints:SODFL2512X73N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="PN">SS16MH</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="" part="SS16MH_2" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.73 mm"/>
+      <property name="PARTREV" value="O2103"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Taiwan Semiconductor"/>
+      <property name="PN" value="SS16MH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>438ec1bb-c165-42c9-ae56-2b9a3004ade1</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>SS16MH</value>
+      <footprint>Footprints:SODFL2512X73N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="PN">SS16MH</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="" part="SS16MH_16" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.73 mm"/>
+      <property name="PARTREV" value="O2103"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Taiwan Semiconductor"/>
+      <property name="PN" value="SS16MH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>667fa596-3f62-4b9f-bdb1-60dbec81f06e</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>SS16MH</value>
+      <footprint>Footprints:SODFL2512X73N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="PN">SS16MH</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="" part="SS16MH_14" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.73 mm"/>
+      <property name="PARTREV" value="O2103"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Taiwan Semiconductor"/>
+      <property name="PN" value="SS16MH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1177d678-9660-4375-bdb5-7478986ba351</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>SS16MH</value>
+      <footprint>Footprints:SODFL2512X73N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="PN">SS16MH</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="" part="SS16MH_15" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.73 mm"/>
+      <property name="PARTREV" value="O2103"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Taiwan Semiconductor"/>
+      <property name="PN" value="SS16MH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7336f066-8276-4c63-9267-e1a2e27b090e</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>ATV02W240B</value>
+      <footprint>Diode_SMD:D_SOD-123FAC</footprint>
+      <fields>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="PN">ATV02W240B</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="Schematic" part="SS16MH" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.73 mm"/>
+      <property name="PARTREV" value="O2103"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Taiwan Semiconductor"/>
+      <property name="PN" value="ATV02W240B"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5836a1c6-8aa2-483c-8f3b-0e0ed04417af</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>ATV02W240B</value>
+      <footprint>Diode_SMD:D_SOD-123FAC</footprint>
+      <fields>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="PN">ATV02W240B</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="Schematic" part="SS16MH" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.73 mm"/>
+      <property name="PARTREV" value="O2103"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Taiwan Semiconductor"/>
+      <property name="PN" value="ATV02W240B"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea7c45e9-2707-467e-9aba-bbf3ce9365f2</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>SS16MH</value>
+      <footprint>Footprints:SODFL2512X73N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="PN">SS16MH</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="" part="SS16MH_9" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.73 mm"/>
+      <property name="PARTREV" value="O2103"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Taiwan Semiconductor"/>
+      <property name="PN" value="SS16MH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>473e44be-092d-4909-a2f5-017ff81fcbc1</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>SS16MH</value>
+      <footprint>Footprints:SODFL2512X73N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="PN">SS16MH</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="" part="SS16MH_10" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.73 mm"/>
+      <property name="PARTREV" value="O2103"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Taiwan Semiconductor"/>
+      <property name="PN" value="SS16MH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c58d132a-b74a-48e3-84be-f39808691f45</tstamps>
+    </comp>
+    <comp ref="D19">
+      <value>SS16MH</value>
+      <footprint>Footprints:SODFL2512X73N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="PN">SS16MH</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="" part="SS16MH_7" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.73 mm"/>
+      <property name="PARTREV" value="O2103"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Taiwan Semiconductor"/>
+      <property name="PN" value="SS16MH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>acad074e-a30c-48e9-a659-93edef3f8ece</tstamps>
+    </comp>
+    <comp ref="D20">
+      <value>SS16MH</value>
+      <footprint>Footprints:SODFL2512X73N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="PN">SS16MH</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="" part="SS16MH_8" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.73 mm"/>
+      <property name="PARTREV" value="O2103"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Taiwan Semiconductor"/>
+      <property name="PN" value="SS16MH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5cd18a9-9179-41bc-9f2d-43d8ae2453d5</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>MCP2561FD-E/P </value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_LongPads</footprint>
+      <fields>
+        <field name="OC_DIGIKEY">MCP2561FD-E/P</field>
+        <field name="OC_FARNELL">2434896</field>
+        <field name="PN">MCP2561FD-E/P</field>
+        <field name="PRICE_DIGIKEY">0,6336</field>
+        <field name="PRICE_FARNELL">0,638</field>
+      </fields>
+      <libsource lib="Schematic" part="MCP2561FD-E{slash}P " description=""/>
+      <property name="OC_DIGIKEY" value="MCP2561FD-E/P"/>
+      <property name="PRICE_FARNELL" value="0,638"/>
+      <property name="PRICE_DIGIKEY" value="0,6336"/>
+      <property name="OC_FARNELL" value="2434896"/>
+      <property name="PN" value="MCP2561FD-E/P"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dbe415dc-83a6-4820-a16b-1dc1bf799f8a</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>1727078</value>
+      <footprint>PHOENIX_1727078</footprint>
+      <fields>
+        <field name="MANUFACTURER">Phoenix Contact</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">8.65mm</field>
+        <field name="PARTREV">02</field>
+        <field name="PN">1727078</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="Schematic" part="1727078" description=""/>
+      <property name="MANUFACTURER" value="Phoenix Contact"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="02"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="8.65mm"/>
+      <property name="PN" value="1727078"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2e6433e-fbeb-4223-98b3-52f8dbbea6a8</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>1727078</value>
+      <footprint>PHOENIX_1727078</footprint>
+      <fields>
+        <field name="MANUFACTURER">Phoenix Contact</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">8.65mm</field>
+        <field name="PARTREV">02</field>
+        <field name="PN">1727078</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="Schematic" part="1727078" description=""/>
+      <property name="MANUFACTURER" value="Phoenix Contact"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="02"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="8.65mm"/>
+      <property name="PN" value="1727078"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da5a0bef-c10d-4026-8cc6-bc7a140ee136</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>1727078</value>
+      <footprint>PHOENIX_1727078</footprint>
+      <fields>
+        <field name="MANUFACTURER">Phoenix Contact</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">8.65mm</field>
+        <field name="PARTREV">02</field>
+        <field name="PN">1727078</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="Schematic" part="1727078" description=""/>
+      <property name="MANUFACTURER" value="Phoenix Contact"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="02"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="8.65mm"/>
+      <property name="PN" value="1727078"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a592c40-cf9d-40f3-9a5b-f5bb1590e45d</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>1727078</value>
+      <footprint>PHOENIX_1727078</footprint>
+      <fields>
+        <field name="MANUFACTURER">Phoenix Contact</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">8.65mm</field>
+        <field name="PARTREV">02</field>
+        <field name="PN">1727078</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="Schematic" part="1727078" description=""/>
+      <property name="MANUFACTURER" value="Phoenix Contact"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="02"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="8.65mm"/>
+      <property name="PN" value="1727078"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00d76a6b-20c5-40d8-9afb-adf20b955d95</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>4-1437652-0</value>
+      <footprint>TE_4-1437652-0</footprint>
+      <fields>
+        <field name="Comment">4-1437652-0</field>
+        <field name="EU_RoHS_Compliance">Compliant</field>
+        <field name="PN">4-1437652-0</field>
+      </fields>
+      <libsource lib="Schematic" part="4-1437652-0" description=""/>
+      <property name="Comment" value="4-1437652-0"/>
+      <property name="EU_RoHS_Compliance" value="Compliant"/>
+      <property name="PN" value="4-1437652-0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e9d9a4a-e8a9-4f1e-9755-5fe3e46b67ec</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="PN">22284020</field>
+      </fields>
+      <libsource lib="" part="Conn_01x02_Male_1" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="PN" value="22284020"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>adca7359-38d6-4168-8e3b-9923401958b2</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="PN">22284020</field>
+      </fields>
+      <libsource lib="" part="Conn_01x02_Male_2" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="PN" value="22284020"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44778f5d-5046-44a0-845f-5d35cc268780</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>54602-908LF</value>
+      <footprint>Footprints:AMPHENOL_54602-908LF</footprint>
+      <fields>
+        <field name="AVAILABILITY">Good</field>
+        <field name="DESCRIPTION">CONN MOD JACK 8P8C R/A UNSHLD</field>
+        <field name="MANUFACTURER">Amphenol FCI</field>
+        <field name="MP">54602-908LF</field>
+        <field name="PACKAGE">None</field>
+        <field name="PARTREV">J</field>
+        <field name="PN">54602-908LF</field>
+        <field name="PRICE">0.36 USD</field>
+        <field name="STANDARD">MANUFACTURER RECOMMENDATION</field>
+      </fields>
+      <libsource lib="" part="54602-908LF_1" description=""/>
+      <property name="PRICE" value="0.36 USD"/>
+      <property name="PARTREV" value="J"/>
+      <property name="PACKAGE" value="None"/>
+      <property name="STANDARD" value="MANUFACTURER RECOMMENDATION"/>
+      <property name="MANUFACTURER" value="Amphenol FCI"/>
+      <property name="DESCRIPTION" value="CONN MOD JACK 8P8C R/A UNSHLD"/>
+      <property name="AVAILABILITY" value="Good"/>
+      <property name="MP" value="54602-908LF"/>
+      <property name="PN" value="54602-908LF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11b46175-415c-433d-bef3-0245fb90fb9c</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>54602-908LF</value>
+      <footprint>Footprints:AMPHENOL_54602-908LF</footprint>
+      <fields>
+        <field name="AVAILABILITY">Good</field>
+        <field name="DESCRIPTION">CONN MOD JACK 8P8C R/A UNSHLD</field>
+        <field name="MANUFACTURER">Amphenol FCI</field>
+        <field name="MP">54602-908LF</field>
+        <field name="PACKAGE">None</field>
+        <field name="PARTREV">J</field>
+        <field name="PN">54602-908LF</field>
+        <field name="PRICE">0.36 USD</field>
+        <field name="STANDARD">MANUFACTURER RECOMMENDATION</field>
+      </fields>
+      <libsource lib="Schematic" part="54602-908LF" description=""/>
+      <property name="PRICE" value="0.36 USD"/>
+      <property name="PARTREV" value="J"/>
+      <property name="PACKAGE" value="None"/>
+      <property name="STANDARD" value="MANUFACTURER RECOMMENDATION"/>
+      <property name="MANUFACTURER" value="Amphenol FCI"/>
+      <property name="DESCRIPTION" value="CONN MOD JACK 8P8C R/A UNSHLD"/>
+      <property name="AVAILABILITY" value="Good"/>
+      <property name="MP" value="54602-908LF"/>
+      <property name="PN" value="54602-908LF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32a1aa9c-1633-453b-be16-2fcffd1f4703</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="PN">22284020</field>
+      </fields>
+      <libsource lib="" part="Conn_01x02_Male_3" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="PN" value="22284020"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b630d2ff-dbcc-4ebf-a616-bca6b15ee9a5</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="PN">22284020</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="PN" value="22284020"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>195638de-870f-45d4-8e7f-4a27c50d1fa6</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>284392-2</value>
+      <footprint>Footprints:TE_284392-2</footprint>
+      <fields>
+        <field name="Comment">284392-2</field>
+        <field name="EU_RoHS_Compliance">Compliant with Exemptions</field>
+        <field name="PN">284392-2</field>
+      </fields>
+      <libsource lib="Schematic" part="284392-2" description=""/>
+      <property name="Comment" value="284392-2"/>
+      <property name="EU_RoHS_Compliance" value="Compliant with Exemptions"/>
+      <property name="PN" value="284392-2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca02e4a6-4202-4dc4-ad3e-f51638b1b84f</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="PN">RMCF0805JT1K00</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value="RMCF0805JT1K00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f15afcc-d598-422f-a3aa-9618f051b7c9</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="PN">RMCF0805JT1K00</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value="RMCF0805JT1K00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed310cc4-39eb-4042-96e2-45a3ae214aaa</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="PN">RMCF0805JT1K00</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value="RMCF0805JT1K00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2d7f67e-4bd5-48bf-912a-faa91c0414c5</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>22K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="PN">RMCF0805JT22K0</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value="RMCF0805JT22K0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b96818ad-0b80-4009-8535-1f74f0968323</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>22K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="PN">RMCF0805JT22K0</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value="RMCF0805JT22K0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5fc299d7-bca2-4320-96a4-f360941902a2</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>22K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="PN">RMCF0805JT22K0</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value="RMCF0805JT22K0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0ab1570-b5a1-41ba-bd2c-b2c9aad16ab2</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="PN">RMCF0805JT1K00</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value="RMCF0805JT1K00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74e81397-c6d0-4b5c-9276-97c162b5e561</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="PN">RMCF0805JT1K00</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value="RMCF0805JT1K00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff856e8e-4e24-45d4-9b8d-8632bc84306a</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="PN">RMCF0805JT1K00</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value="RMCF0805JT1K00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b595a6f-ffa4-4e49-837a-1b4b7bba918a</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="PN">RMCF0805JT1K00</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value="RMCF0805JT1K00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6fb7a61b-74d8-4375-bf0c-b7fdf3fd9a36</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="PN">RMCF0805JT1K00</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value="RMCF0805JT1K00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36ebeff2-d018-432d-8d2b-ea8ee9cb299f</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="PN">RMCF0805JT1K00</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value="RMCF0805JT1K00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8ba7b41-3506-41c8-94ce-6915f53f7af8</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="PN">RMCF0805JT1K00</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value="RMCF0805JT1K00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba56f6f5-8e4c-4fa4-bf61-2600c4fb99d2</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>22K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="PN">RMCF0805JT22K0</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value="RMCF0805JT22K0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0df600b6-4348-48b9-aa35-b410c23a09bf</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>22K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="PN">RMCF0805JT22K0</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value="RMCF0805JT22K0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84667163-0820-4e1a-84e5-b6974c9bf24f</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>22K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="PN">RMCF0805JT22K0</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value="RMCF0805JT22K0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6454699-af98-4371-98a8-e496c11353f4</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>300R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="PN">RMCF0805JT300R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value="RMCF0805JT300R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5053fa2-9062-43ce-ab0b-2fd628a1dc95</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="PN">RMCF0805JT1K00</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value="RMCF0805JT1K00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd048170-c9ce-4ff5-b67e-75265f6ab8f7</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="PN">RMCF0805JT1K00</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value="RMCF0805JT1K00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fff036a3-066f-4dc9-9cf6-d6a81126042b</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="PN">RMCF0805JT1K00</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value="RMCF0805JT1K00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41823a44-9e8f-4e42-9a82-0b6ee0ab5e4c</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="PN">RMCF0805JT1K00</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value="RMCF0805JT1K00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5476a86e-9b3f-4416-91e5-371230b0045d</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>300R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="PN">RMCF0805JT300R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value="RMCF0805JT300R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>487b9057-599f-40bf-8981-634da803cace</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>300R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="PN">RMCF0805JT300R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value="RMCF0805JT300R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b53603e7-2f87-4052-9625-fab352dc3386</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>60R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="PN">RMCF0805JT60R0</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value="RMCF0805JT60R0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b449e27f-ac96-49b8-8eaa-c61be8f7154a</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="PN">RMCF0805JT4K70</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value="RMCF0805JT4K70"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c2dd412-4060-404a-b5db-c10ba06f183b</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="PN">RMCF0805JT1K00</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value="RMCF0805JT1K00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e0fe2cf-5430-40f0-b030-7053b1c427e2</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="PN">RMCF0805JT4K70</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value="RMCF0805JT4K70"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5bf76ae8-751f-4ae5-a7a0-9cbcb11322d9</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="PN">RMCF0805JT1K00</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value="RMCF0805JT1K00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78f79dd6-8d11-406f-9511-c036842adbbb</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>60R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="PN">RMCF0805JT60R0</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value="RMCF0805JT60R0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe588c81-884b-480f-9258-eb43efbdb749</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>FREESOC_MINI</value>
+      <footprint>Package_DIP:DIP-40_W15.24mm_Socket_LongPads</footprint>
+      <fields>
+        <field name="PN">110-87-640-41-001101 </field>
+      </fields>
+      <libsource lib="Schematic" part="FREESOC_MINI" description=""/>
+      <property name="PN" value="110-87-640-41-001101 "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>acd54fdc-7402-4c63-9149-426ec654e184</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>74HCT541</value>
+      <footprint>Package_DIP:DIP-20_W7.62mm_LongPads</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HCT541</datasheet>
+      <fields>
+        <field name="PN">CD74ACT541EE4</field>
+      </fields>
+      <libsource lib="74xx" part="74HCT541" description="8-bit Buffer/Line Driver 3-state outputs"/>
+      <property name="PN" value="CD74ACT541EE4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5a524db-4571-41f6-abfe-fe21bde5dcc6</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>VX7805-500</value>
+      <footprint>Footprints:VX78012-500_VX7805-500</footprint>
+      <fields>
+        <field name="MANUFACTURER">CUI Inc</field>
+        <field name="PARTREV">1.0</field>
+        <field name="PN">VX7805-500</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+      </fields>
+      <libsource lib="Schematic" part="VX7805-500" description=""/>
+      <property name="STANDARD" value="Manufacturer recommendations"/>
+      <property name="MANUFACTURER" value="CUI Inc"/>
+      <property name="PARTREV" value="1.0"/>
+      <property name="PN" value="VX7805-500"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22f8ed60-eafb-4578-9aa1-a64ac29dd904</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>H11L1SR2M</value>
+      <footprint>Footprints:IC_H11L1SR2M</footprint>
+      <fields>
+        <field name="MANUFACTURER">Fairchild Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.80mm</field>
+        <field name="PARTREV">3</field>
+        <field name="PN">H11L1SR2M</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="Schematic" part="H11L1SR2M" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.80mm"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="3"/>
+      <property name="MANUFACTURER" value="Fairchild Semiconductor"/>
+      <property name="PN" value="H11L1SR2M"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ce47c33-3558-416a-96ff-55c0c94c9a4a</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>H11L1SR2M</value>
+      <footprint>Footprints:IC_H11L1SR2M</footprint>
+      <fields>
+        <field name="MANUFACTURER">Fairchild Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.80mm</field>
+        <field name="PARTREV">3</field>
+        <field name="PN">H11L1SR2M</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="Schematic" part="H11L1SR2M" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.80mm"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="3"/>
+      <property name="MANUFACTURER" value="Fairchild Semiconductor"/>
+      <property name="PN" value="H11L1SR2M"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c20c36bc-bf30-4980-bb12-37cd64dc2ddb</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>ECS-3961-240-AU-TR</value>
+      <footprint>Footprints:OSC_ECS-3961-240-AU-TR</footprint>
+      <fields>
+        <field name="MANUFACTURER">ECS Inc</field>
+        <field name="PARTREV">N/A</field>
+        <field name="PN">ECS-3961-240-AU-TR</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="Schematic" part="ECS-3961-240-AU-TR" description=""/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="MANUFACTURER" value="ECS Inc"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PN" value="ECS-3961-240-AU-TR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RVController.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa9c0440-16d5-4a42-b22f-f6ab166f25e2</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>ATV02W240B</value>
+      <footprint>Footprints:SODFL2512X73N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="PN">ATV02W240B</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="Schematic" part="SS16MH" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.73 mm"/>
+      <property name="PARTREV" value="O2103"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Taiwan Semiconductor"/>
+      <property name="PN" value="ATV02W240B"/>
+      <property name="Sheetname" value="PWM1"/>
+      <property name="Sheetfile" value="pwm.kicad_sch"/>
+      <sheetpath names="/PWM1/" tstamps="/0478ce80-92fa-4924-9f3c-8b799ce3732d/"/>
+      <tstamps>b95538ee-ae08-4d6d-8c35-be23d4c43f44</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>EPC2014C</value>
+      <footprint>TRANS_EPC2014C</footprint>
+      <fields>
+        <field name="MANUFACTURER">EPC</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.815mm</field>
+        <field name="PARTREV">N/A</field>
+        <field name="PN">EPC2014C</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="Schematic" part="EPC2014C" description=""/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MANUFACTURER" value="EPC"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.815mm"/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="PN" value="EPC2014C"/>
+      <property name="Sheetname" value="PWM1"/>
+      <property name="Sheetfile" value="pwm.kicad_sch"/>
+      <sheetpath names="/PWM1/" tstamps="/0478ce80-92fa-4924-9f3c-8b799ce3732d/"/>
+      <tstamps>90500c00-520b-41e3-8d60-083ee7bb6bfc</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>ATV02W240B</value>
+      <footprint>Footprints:SODFL2512X73N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="PN">ATV02W240B</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="Schematic" part="SS16MH" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.73 mm"/>
+      <property name="PARTREV" value="O2103"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Taiwan Semiconductor"/>
+      <property name="PN" value="ATV02W240B"/>
+      <property name="Sheetname" value="PWM2"/>
+      <property name="Sheetfile" value="pwm.kicad_sch"/>
+      <sheetpath names="/PWM2/" tstamps="/8d965751-30dd-416b-888b-8d24b312a4e2/"/>
+      <tstamps>b95538ee-ae08-4d6d-8c35-be23d4c43f44</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>EPC2014C</value>
+      <footprint>TRANS_EPC2014C</footprint>
+      <fields>
+        <field name="MANUFACTURER">EPC</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.815mm</field>
+        <field name="PARTREV">N/A</field>
+        <field name="PN">EPC2014C</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="Schematic" part="EPC2014C" description=""/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MANUFACTURER" value="EPC"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.815mm"/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="PN" value="EPC2014C"/>
+      <property name="Sheetname" value="PWM2"/>
+      <property name="Sheetfile" value="pwm.kicad_sch"/>
+      <sheetpath names="/PWM2/" tstamps="/8d965751-30dd-416b-888b-8d24b312a4e2/"/>
+      <tstamps>90500c00-520b-41e3-8d60-083ee7bb6bfc</tstamps>
+    </comp>
+    <comp ref="D21">
+      <value>ATV02W240B</value>
+      <footprint>Footprints:SODFL2512X73N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="PN">ATV02W240B</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="Schematic" part="SS16MH" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.73 mm"/>
+      <property name="PARTREV" value="O2103"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Taiwan Semiconductor"/>
+      <property name="PN" value="ATV02W240B"/>
+      <property name="Sheetname" value="PWM3"/>
+      <property name="Sheetfile" value="pwm.kicad_sch"/>
+      <sheetpath names="/PWM3/" tstamps="/b31d78d0-6cf4-4af5-8907-b8e33c1ccd43/"/>
+      <tstamps>b95538ee-ae08-4d6d-8c35-be23d4c43f44</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>EPC2014C</value>
+      <footprint>TRANS_EPC2014C</footprint>
+      <fields>
+        <field name="MANUFACTURER">EPC</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.815mm</field>
+        <field name="PARTREV">N/A</field>
+        <field name="PN">EPC2014C</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="Schematic" part="EPC2014C" description=""/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MANUFACTURER" value="EPC"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.815mm"/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="PN" value="EPC2014C"/>
+      <property name="Sheetname" value="PWM3"/>
+      <property name="Sheetfile" value="pwm.kicad_sch"/>
+      <sheetpath names="/PWM3/" tstamps="/b31d78d0-6cf4-4af5-8907-b8e33c1ccd43/"/>
+      <tstamps>90500c00-520b-41e3-8d60-083ee7bb6bfc</tstamps>
+    </comp>
+    <comp ref="D22">
+      <value>ATV02W240B</value>
+      <footprint>Footprints:SODFL2512X73N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="PN">ATV02W240B</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="Schematic" part="SS16MH" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.73 mm"/>
+      <property name="PARTREV" value="O2103"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Taiwan Semiconductor"/>
+      <property name="PN" value="ATV02W240B"/>
+      <property name="Sheetname" value="PWM4"/>
+      <property name="Sheetfile" value="pwm.kicad_sch"/>
+      <sheetpath names="/PWM4/" tstamps="/b0a3a223-eb2f-4c2c-8a26-9bd142d4d36f/"/>
+      <tstamps>b95538ee-ae08-4d6d-8c35-be23d4c43f44</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>EPC2014C</value>
+      <footprint>TRANS_EPC2014C</footprint>
+      <fields>
+        <field name="MANUFACTURER">EPC</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.815mm</field>
+        <field name="PARTREV">N/A</field>
+        <field name="PN">EPC2014C</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="Schematic" part="EPC2014C" description=""/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MANUFACTURER" value="EPC"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.815mm"/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="PN" value="EPC2014C"/>
+      <property name="Sheetname" value="PWM4"/>
+      <property name="Sheetfile" value="pwm.kicad_sch"/>
+      <sheetpath names="/PWM4/" tstamps="/b0a3a223-eb2f-4c2c-8a26-9bd142d4d36f/"/>
+      <tstamps>90500c00-520b-41e3-8d60-083ee7bb6bfc</tstamps>
+    </comp>
+    <comp ref="D23">
+      <value>ATV02W240B</value>
+      <footprint>Footprints:SODFL2512X73N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="PN">ATV02W240B</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="Schematic" part="SS16MH" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.73 mm"/>
+      <property name="PARTREV" value="O2103"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Taiwan Semiconductor"/>
+      <property name="PN" value="ATV02W240B"/>
+      <property name="Sheetname" value="PWM5"/>
+      <property name="Sheetfile" value="pwm.kicad_sch"/>
+      <sheetpath names="/PWM5/" tstamps="/a055db99-6ae3-47e4-97eb-6df91963a253/"/>
+      <tstamps>b95538ee-ae08-4d6d-8c35-be23d4c43f44</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>EPC2014C</value>
+      <footprint>TRANS_EPC2014C</footprint>
+      <fields>
+        <field name="MANUFACTURER">EPC</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.815mm</field>
+        <field name="PARTREV">N/A</field>
+        <field name="PN">EPC2014C</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="Schematic" part="EPC2014C" description=""/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MANUFACTURER" value="EPC"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.815mm"/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="PN" value="EPC2014C"/>
+      <property name="Sheetname" value="PWM5"/>
+      <property name="Sheetfile" value="pwm.kicad_sch"/>
+      <sheetpath names="/PWM5/" tstamps="/a055db99-6ae3-47e4-97eb-6df91963a253/"/>
+      <tstamps>90500c00-520b-41e3-8d60-083ee7bb6bfc</tstamps>
+    </comp>
+    <comp ref="D24">
+      <value>ATV02W240B</value>
+      <footprint>Footprints:SODFL2512X73N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="PN">ATV02W240B</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="Schematic" part="SS16MH" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.73 mm"/>
+      <property name="PARTREV" value="O2103"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Taiwan Semiconductor"/>
+      <property name="PN" value="ATV02W240B"/>
+      <property name="Sheetname" value="PWM6"/>
+      <property name="Sheetfile" value="pwm.kicad_sch"/>
+      <sheetpath names="/PWM6/" tstamps="/58ad38d8-0b80-4fe8-9cbf-b90de4537dad/"/>
+      <tstamps>b95538ee-ae08-4d6d-8c35-be23d4c43f44</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>EPC2014C</value>
+      <footprint>TRANS_EPC2014C</footprint>
+      <fields>
+        <field name="MANUFACTURER">EPC</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.815mm</field>
+        <field name="PARTREV">N/A</field>
+        <field name="PN">EPC2014C</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="Schematic" part="EPC2014C" description=""/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MANUFACTURER" value="EPC"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.815mm"/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="PN" value="EPC2014C"/>
+      <property name="Sheetname" value="PWM6"/>
+      <property name="Sheetfile" value="pwm.kicad_sch"/>
+      <sheetpath names="/PWM6/" tstamps="/58ad38d8-0b80-4fe8-9cbf-b90de4537dad/"/>
+      <tstamps>90500c00-520b-41e3-8d60-083ee7bb6bfc</tstamps>
+    </comp>
+    <comp ref="D25">
+      <value>ATV02W240B</value>
+      <footprint>Footprints:SODFL2512X73N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="PN">ATV02W240B</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="Schematic" part="SS16MH" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.73 mm"/>
+      <property name="PARTREV" value="O2103"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Taiwan Semiconductor"/>
+      <property name="PN" value="ATV02W240B"/>
+      <property name="Sheetname" value="PWM7"/>
+      <property name="Sheetfile" value="pwm.kicad_sch"/>
+      <sheetpath names="/PWM7/" tstamps="/f52e3f1c-82aa-4f87-a7c1-acbfe6da4cab/"/>
+      <tstamps>b95538ee-ae08-4d6d-8c35-be23d4c43f44</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>EPC2014C</value>
+      <footprint>TRANS_EPC2014C</footprint>
+      <fields>
+        <field name="MANUFACTURER">EPC</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.815mm</field>
+        <field name="PARTREV">N/A</field>
+        <field name="PN">EPC2014C</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="Schematic" part="EPC2014C" description=""/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MANUFACTURER" value="EPC"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.815mm"/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="PN" value="EPC2014C"/>
+      <property name="Sheetname" value="PWM7"/>
+      <property name="Sheetfile" value="pwm.kicad_sch"/>
+      <sheetpath names="/PWM7/" tstamps="/f52e3f1c-82aa-4f87-a7c1-acbfe6da4cab/"/>
+      <tstamps>90500c00-520b-41e3-8d60-083ee7bb6bfc</tstamps>
+    </comp>
+    <comp ref="D26">
+      <value>ATV02W240B</value>
+      <footprint>Footprints:SODFL2512X73N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="PN">ATV02W240B</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="Schematic" part="SS16MH" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.73 mm"/>
+      <property name="PARTREV" value="O2103"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Taiwan Semiconductor"/>
+      <property name="PN" value="ATV02W240B"/>
+      <property name="Sheetname" value="PWM8"/>
+      <property name="Sheetfile" value="pwm.kicad_sch"/>
+      <sheetpath names="/PWM8/" tstamps="/13e5e3b8-30be-4b40-ab2f-678a24a7ba40/"/>
+      <tstamps>b95538ee-ae08-4d6d-8c35-be23d4c43f44</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>EPC2014C</value>
+      <footprint>TRANS_EPC2014C</footprint>
+      <fields>
+        <field name="MANUFACTURER">EPC</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.815mm</field>
+        <field name="PARTREV">N/A</field>
+        <field name="PN">EPC2014C</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="Schematic" part="EPC2014C" description=""/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MANUFACTURER" value="EPC"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.815mm"/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="PN" value="EPC2014C"/>
+      <property name="Sheetname" value="PWM8"/>
+      <property name="Sheetfile" value="pwm.kicad_sch"/>
+      <sheetpath names="/PWM8/" tstamps="/13e5e3b8-30be-4b40-ab2f-678a24a7ba40/"/>
+      <tstamps>90500c00-520b-41e3-8d60-083ee7bb6bfc</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="54602-908LF_1">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">54602-908LF_1</field>
+        <field name="Footprint">Footprints:AMPHENOL_54602-908LF</field>
+        <field name="PRICE">0.36 USD</field>
+        <field name="PARTREV">J</field>
+        <field name="PACKAGE">None</field>
+        <field name="STANDARD">MANUFACTURER RECOMMENDATION</field>
+        <field name="MANUFACTURER">Amphenol FCI</field>
+        <field name="DESCRIPTION">CONN MOD JACK 8P8C R/A UNSHLD</field>
+        <field name="AVAILABILITY">Good</field>
+        <field name="PN">54602-908LF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="Conn_01x02_Male_1">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male_1</field>
+        <field name="Datasheet">~</field>
+        <field name="PN">22284020</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="Conn_01x02_Male_2">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male_2</field>
+        <field name="Datasheet">~</field>
+        <field name="PN">22284020</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="Conn_01x02_Male_3">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male_3</field>
+        <field name="Datasheet">~</field>
+        <field name="PN">22284020</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SS16MH_1">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SS16MH_1</field>
+        <field name="Footprint">Footprints:SODFL2512X73N</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="PN">SS16MH</field>
+      </fields>
+      <pins>
+        <pin num="A" name="" type="passive"/>
+        <pin num="C" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SS16MH_10">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SS16MH_10</field>
+        <field name="Footprint">Footprints:SODFL2512X73N</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="PN">SS16MH</field>
+      </fields>
+      <pins>
+        <pin num="A" name="" type="passive"/>
+        <pin num="C" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SS16MH_11">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SS16MH_11</field>
+        <field name="Footprint">Footprints:SODFL2512X73N</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="PN">SS16MH</field>
+      </fields>
+      <pins>
+        <pin num="A" name="" type="passive"/>
+        <pin num="C" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SS16MH_12">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SS16MH_12</field>
+        <field name="Footprint">Footprints:SODFL2512X73N</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="PN">SS16MH</field>
+      </fields>
+      <pins>
+        <pin num="A" name="" type="passive"/>
+        <pin num="C" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SS16MH_13">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SS16MH_13</field>
+        <field name="Footprint">Footprints:SODFL2512X73N</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="PN">SS16MH</field>
+      </fields>
+      <pins>
+        <pin num="A" name="" type="passive"/>
+        <pin num="C" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SS16MH_14">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SS16MH_14</field>
+        <field name="Footprint">Footprints:SODFL2512X73N</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="PN">SS16MH</field>
+      </fields>
+      <pins>
+        <pin num="A" name="" type="passive"/>
+        <pin num="C" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SS16MH_15">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SS16MH_15</field>
+        <field name="Footprint">Footprints:SODFL2512X73N</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="PN">SS16MH</field>
+      </fields>
+      <pins>
+        <pin num="A" name="" type="passive"/>
+        <pin num="C" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SS16MH_16">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SS16MH_16</field>
+        <field name="Footprint">Footprints:SODFL2512X73N</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="PN">SS16MH</field>
+      </fields>
+      <pins>
+        <pin num="A" name="" type="passive"/>
+        <pin num="C" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SS16MH_2">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SS16MH_2</field>
+        <field name="Footprint">Footprints:SODFL2512X73N</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="PN">SS16MH</field>
+      </fields>
+      <pins>
+        <pin num="A" name="" type="passive"/>
+        <pin num="C" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SS16MH_3">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SS16MH_3</field>
+        <field name="Footprint">Footprints:SODFL2512X73N</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="PN">SS16MH</field>
+      </fields>
+      <pins>
+        <pin num="A" name="" type="passive"/>
+        <pin num="C" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SS16MH_4">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SS16MH_4</field>
+        <field name="Footprint">Footprints:SODFL2512X73N</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="PN">SS16MH</field>
+      </fields>
+      <pins>
+        <pin num="A" name="" type="passive"/>
+        <pin num="C" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SS16MH_5">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SS16MH_5</field>
+        <field name="Footprint">Footprints:SODFL2512X73N</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="PN">SS16MH</field>
+      </fields>
+      <pins>
+        <pin num="A" name="" type="passive"/>
+        <pin num="C" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SS16MH_6">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SS16MH_6</field>
+        <field name="Footprint">Footprints:SODFL2512X73N</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="PN">SS16MH</field>
+      </fields>
+      <pins>
+        <pin num="A" name="" type="passive"/>
+        <pin num="C" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SS16MH_7">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SS16MH_7</field>
+        <field name="Footprint">Footprints:SODFL2512X73N</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="PN">SS16MH</field>
+      </fields>
+      <pins>
+        <pin num="A" name="" type="passive"/>
+        <pin num="C" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SS16MH_8">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SS16MH_8</field>
+        <field name="Footprint">Footprints:SODFL2512X73N</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="PN">SS16MH</field>
+      </fields>
+      <pins>
+        <pin num="A" name="" type="passive"/>
+        <pin num="C" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SS16MH_9">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SS16MH_9</field>
+        <field name="Footprint">Footprints:SODFL2512X73N</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="PN">SS16MH</field>
+      </fields>
+      <pins>
+        <pin num="A" name="" type="passive"/>
+        <pin num="C" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74HCT541">
+      <description>8-bit Buffer/Line Driver 3-state outputs</description>
+      <docs>http://www.ti.com/lit/gpn/sn74HCT541</docs>
+      <footprints>
+        <fp>DIP?20*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HCT541</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/sn74HCT541</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G1" type="input"/>
+        <pin num="2" name="A0" type="input"/>
+        <pin num="3" name="A1" type="input"/>
+        <pin num="4" name="A2" type="input"/>
+        <pin num="5" name="A3" type="input"/>
+        <pin num="6" name="A4" type="input"/>
+        <pin num="7" name="A5" type="input"/>
+        <pin num="8" name="A6" type="input"/>
+        <pin num="9" name="A7" type="input"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="Y7" type="tri_state"/>
+        <pin num="12" name="Y6" type="tri_state"/>
+        <pin num="13" name="Y5" type="tri_state"/>
+        <pin num="14" name="Y4" type="tri_state"/>
+        <pin num="15" name="Y3" type="tri_state"/>
+        <pin num="16" name="Y2" type="tri_state"/>
+        <pin num="17" name="Y1" type="tri_state"/>
+        <pin num="18" name="Y0" type="tri_state"/>
+        <pin num="19" name="G2" type="input"/>
+        <pin num="20" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+        <field name="PN">22284020</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Schematic" part="1727078">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">1727078</field>
+        <field name="Footprint">PHOENIX_1727078</field>
+        <field name="MANUFACTURER">Phoenix Contact</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">02</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">8.65mm</field>
+        <field name="PN">1727078</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Schematic" part="284392-2">
+      <fields>
+        <field name="Reference">J12</field>
+        <field name="Value">284392-2</field>
+        <field name="Footprint">Footprints:TE_284392-2</field>
+        <field name="Comment">284392-2</field>
+        <field name="EU_RoHS_Compliance">Compliant with Exemptions</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="power_out"/>
+        <pin num="2" name="2" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Schematic" part="4-1437652-0">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">4-1437652-0</field>
+        <field name="Footprint">TE_4-1437652-0</field>
+        <field name="Comment">4-1437652-0</field>
+        <field name="EU_RoHS_Compliance">Compliant</field>
+        <field name="PN">4-1437652-0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Schematic" part="54602-908LF">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">54602-908LF</field>
+        <field name="Footprint">Footprints:AMPHENOL_54602-908LF</field>
+        <field name="PRICE">0.36 USD</field>
+        <field name="PARTREV">J</field>
+        <field name="PACKAGE">None</field>
+        <field name="STANDARD">MANUFACTURER RECOMMENDATION</field>
+        <field name="MANUFACTURER">Amphenol FCI</field>
+        <field name="DESCRIPTION">CONN MOD JACK 8P8C R/A UNSHLD</field>
+        <field name="AVAILABILITY">Good</field>
+        <field name="PN">54602-908LF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Schematic" part="ECS-3961-240-AU-TR">
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">ECS-3961-240-AU-TR</field>
+        <field name="Footprint">Footprints:OSC_ECS-3961-240-AU-TR</field>
+        <field name="PARTREV">N/A</field>
+        <field name="MANUFACTURER">ECS Inc</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TRI-STATE" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUTPUT" type="output"/>
+        <pin num="4" name="VDD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Schematic" part="EPC2014C">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">EPC2014C</field>
+        <field name="Footprint">TRANS_EPC2014C</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MANUFACTURER">EPC</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.815mm</field>
+        <field name="PARTREV">N/A</field>
+        <field name="PN">EPC2014C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Schematic" part="FREESOC_MINI">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FREESOC_MINI</field>
+        <field name="Footprint">Package_DIP:DIP-40_W15.24mm_Socket_LongPads</field>
+      </fields>
+      <pins>
+        <pin num="1" name="12.0" type="bidirectional"/>
+        <pin num="2" name="12.1" type="bidirectional"/>
+        <pin num="3" name="12.2" type="bidirectional"/>
+        <pin num="4" name="12.3" type="bidirectional"/>
+        <pin num="5" name="12.4" type="bidirectional"/>
+        <pin num="6" name="12.5" type="bidirectional"/>
+        <pin num="7" name="12.6" type="bidirectional"/>
+        <pin num="8" name="12.7" type="bidirectional"/>
+        <pin num="9" name="1.7" type="bidirectional"/>
+        <pin num="10" name="3.0" type="bidirectional"/>
+        <pin num="11" name="3.1" type="bidirectional"/>
+        <pin num="12" name="3.2" type="bidirectional"/>
+        <pin num="13" name="3.3" type="bidirectional"/>
+        <pin num="14" name="3.4" type="bidirectional"/>
+        <pin num="15" name="3.5" type="bidirectional"/>
+        <pin num="16" name="3.6" type="bidirectional"/>
+        <pin num="17" name="3.7" type="bidirectional"/>
+        <pin num="18" name="15.1" type="bidirectional"/>
+        <pin num="19" name="15.0" type="bidirectional"/>
+        <pin num="20" name="GND" type="power_in"/>
+        <pin num="21" name="2.0" type="bidirectional"/>
+        <pin num="22" name="2.1" type="bidirectional"/>
+        <pin num="23" name="2.2" type="bidirectional"/>
+        <pin num="24" name="2.3" type="bidirectional"/>
+        <pin num="25" name="2.4" type="bidirectional"/>
+        <pin num="26" name="2.5" type="bidirectional"/>
+        <pin num="27" name="2.6" type="bidirectional"/>
+        <pin num="28" name="2.7" type="bidirectional"/>
+        <pin num="29" name="15.5" type="bidirectional"/>
+        <pin num="30" name="15.4" type="bidirectional"/>
+        <pin num="31" name="1.6" type="bidirectional"/>
+        <pin num="32" name="0.7" type="bidirectional"/>
+        <pin num="33" name="0.6" type="bidirectional"/>
+        <pin num="34" name="0.5" type="bidirectional"/>
+        <pin num="35" name="0.4" type="bidirectional"/>
+        <pin num="36" name="0.3" type="bidirectional"/>
+        <pin num="37" name="0.2" type="bidirectional"/>
+        <pin num="38" name="0.1" type="bidirectional"/>
+        <pin num="39" name="0.0" type="bidirectional"/>
+        <pin num="40" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Schematic" part="H11L1SR2M">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">H11L1SR2M</field>
+        <field name="Footprint">Footprints:IC_H11L1SR2M</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.80mm</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">3</field>
+        <field name="MANUFACTURER">Fairchild Semiconductor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="" type="power_in"/>
+        <pin num="6" name="" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Schematic" part="MCP2561FD-E{slash}P ">
+      <footprints>
+        <fp>DFN8-3X3</fp>
+        <fp>SO8</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MCP2561FD-E{slash}P </field>
+        <field name="Footprint">Package_DIP:DIP-8_W7.62mm_LongPads</field>
+        <field name="OC_DIGIKEY">MCP2561FD-E/P</field>
+        <field name="PRICE_FARNELL">0,638</field>
+        <field name="PRICE_DIGIKEY">0,6336</field>
+        <field name="OC_FARNELL">2434896</field>
+        <field name="PN">MCP2561FD-E/P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="input"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VDD" type="power_in"/>
+        <pin num="4" name="RXD" type="output"/>
+        <pin num="5" name="SPLIT" type="passive"/>
+        <pin num="6" name="CANL" type="bidirectional"/>
+        <pin num="7" name="CANH" type="bidirectional"/>
+        <pin num="8" name="STBY" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Schematic" part="SS16MH">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SS16MH</field>
+        <field name="Footprint">Footprints:SODFL2512X73N</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.73 mm</field>
+        <field name="PARTREV">O2103</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+      </fields>
+      <pins>
+        <pin num="A" name="" type="passive"/>
+        <pin num="C" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Schematic" part="VX7805-500">
+      <fields>
+        <field name="Reference">U3</field>
+        <field name="Value">VX7805-500</field>
+        <field name="Footprint">Footprints:VX78012-500_VX7805-500</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+        <field name="MANUFACTURER">CUI Inc</field>
+        <field name="PARTREV">1.0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+VIN" type="input"/>
+        <pin num="2" name="GND/-VOUT" type="power_in"/>
+        <pin num="3" name="+VOUT/GND" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//74xx.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Schematic">
+      <uri>/Users/jmole/Documents/GitHub/RVController/KiCAD/RVController/Libraries/Schematic.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D1" pin="C" pintype="passive"/>
+      <node ref="D11" pin="C" pintype="passive"/>
+      <node ref="D17" pin="C" pintype="passive"/>
+      <node ref="D19" pin="C" pintype="passive"/>
+      <node ref="D3" pin="C" pintype="passive"/>
+      <node ref="D5" pin="C" pintype="passive"/>
+      <node ref="D7" pin="C" pintype="passive"/>
+      <node ref="D9" pin="C" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="40" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="20" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="+VOUT/GND" pintype="power_out"/>
+      <node ref="U5" pin="6" pintype="power_in"/>
+      <node ref="Y1" pin="4" pinfunction="VDD" pintype="input"/>
+    </net>
+    <net code="2" name="+5V_CAN">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="3" pinfunction="VDD" pintype="power_in"/>
+      <node ref="J12" pin="1" pinfunction="1" pintype="power_out"/>
+      <node ref="J8" pin="8" pintype="passive"/>
+      <node ref="J9" pin="8" pintype="passive"/>
+      <node ref="U4" pin="6" pintype="power_in"/>
+    </net>
+    <net code="3" name="/CAN_RX">
+      <node ref="U1" pin="29" pinfunction="15.5" pintype="bidirectional"/>
+      <node ref="U5" pin="4" pintype="output"/>
+    </net>
+    <net code="4" name="/CAN_TX">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="15.4" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/CLK_IN">
+      <node ref="U1" pin="1" pinfunction="12.0" pintype="bidirectional"/>
+      <node ref="Y1" pin="3" pinfunction="OUTPUT" pintype="output"/>
+    </net>
+    <net code="6" name="ADC1">
+      <node ref="D17" pin="A" pintype="passive"/>
+      <node ref="D18" pin="C" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="3.0" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="ADC2">
+      <node ref="D19" pin="A" pintype="passive"/>
+      <node ref="D20" pin="C" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="3.1" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="BUTTON3">
+      <node ref="D1" pin="A" pintype="passive"/>
+      <node ref="D2" pin="C" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="3.2" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="BUTTON4">
+      <node ref="D3" pin="A" pintype="passive"/>
+      <node ref="D4" pin="C" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="3.3" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="BUTTON5">
+      <node ref="D5" pin="A" pintype="passive"/>
+      <node ref="D6" pin="C" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="3.4" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="BUTTON6">
+      <node ref="D7" pin="A" pintype="passive"/>
+      <node ref="D8" pin="C" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="3.5" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="BUTTON7">
+      <node ref="D10" pin="C" pintype="passive"/>
+      <node ref="D9" pin="A" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="3.6" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="BUTTON8">
+      <node ref="D11" pin="A" pintype="passive"/>
+      <node ref="D12" pin="C" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="3.7" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="CANH">
+      <node ref="IC1" pin="7" pinfunction="CANH" pintype="bidirectional"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="1" pintype="passive"/>
+      <node ref="J9" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="CANL">
+      <node ref="IC1" pin="6" pinfunction="CANL" pintype="bidirectional"/>
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="2" pintype="passive"/>
+      <node ref="J9" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="D10" pin="A" pintype="passive"/>
+      <node ref="D12" pin="A" pintype="passive"/>
+      <node ref="D13" pin="A" pintype="passive"/>
+      <node ref="D14" pin="A" pintype="passive"/>
+      <node ref="D15" pin="A" pintype="passive"/>
+      <node ref="D16" pin="A" pintype="passive"/>
+      <node ref="D18" pin="A" pintype="passive"/>
+      <node ref="D2" pin="A" pintype="passive"/>
+      <node ref="D20" pin="A" pintype="passive"/>
+      <node ref="D21" pin="A" pintype="passive"/>
+      <node ref="D22" pin="A" pintype="passive"/>
+      <node ref="D23" pin="A" pintype="passive"/>
+      <node ref="D24" pin="A" pintype="passive"/>
+      <node ref="D25" pin="A" pintype="passive"/>
+      <node ref="D26" pin="A" pintype="passive"/>
+      <node ref="D4" pin="A" pintype="passive"/>
+      <node ref="D6" pin="A" pintype="passive"/>
+      <node ref="D8" pin="A" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Q1" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="4" pintype="passive"/>
+      <node ref="Q2" pin="2" pintype="passive"/>
+      <node ref="Q2" pin="4" pintype="passive"/>
+      <node ref="Q3" pin="2" pintype="passive"/>
+      <node ref="Q3" pin="4" pintype="passive"/>
+      <node ref="Q4" pin="2" pintype="passive"/>
+      <node ref="Q4" pin="4" pintype="passive"/>
+      <node ref="Q5" pin="2" pintype="passive"/>
+      <node ref="Q5" pin="4" pintype="passive"/>
+      <node ref="Q6" pin="2" pintype="passive"/>
+      <node ref="Q6" pin="4" pintype="passive"/>
+      <node ref="Q7" pin="2" pintype="passive"/>
+      <node ref="Q7" pin="4" pintype="passive"/>
+      <node ref="Q8" pin="2" pintype="passive"/>
+      <node ref="Q8" pin="4" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="G1" pintype="input"/>
+      <node ref="U2" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="19" pinfunction="G2" pintype="input"/>
+      <node ref="U3" pin="2" pinfunction="GND/-VOUT" pintype="power_in"/>
+      <node ref="U4" pin="2" pintype="passive"/>
+      <node ref="U5" pin="5" pintype="power_in"/>
+      <node ref="Y1" pin="1" pinfunction="TRI-STATE" pintype="input"/>
+      <node ref="Y1" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="17" name="GND_CAN">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="IC1" pin="8" pinfunction="STBY" pintype="input"/>
+      <node ref="J12" pin="2" pinfunction="2" pintype="power_out"/>
+      <node ref="J8" pin="3" pintype="passive"/>
+      <node ref="J8" pin="7" pintype="passive"/>
+      <node ref="J9" pin="3" pintype="passive"/>
+      <node ref="J9" pin="7" pintype="passive"/>
+      <node ref="U4" pin="5" pintype="power_in"/>
+      <node ref="U5" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="INPUT1">
+      <node ref="D13" pin="C" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="INPUT2">
+      <node ref="D15" pin="C" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="INPUT3">
+      <node ref="J2" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="INPUT4">
+      <node ref="J2" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="INPUT5">
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="INPUT6">
+      <node ref="J4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="INPUT7">
+      <node ref="J4" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="25" name="INPUT8">
+      <node ref="J4" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="26" name="LED1">
+      <node ref="D14" pin="C" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q1" pin="3" pintype="passive"/>
+      <node ref="Q1" pin="5" pintype="passive"/>
+    </net>
+    <net code="27" name="LED2">
+      <node ref="D16" pin="C" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="Q2" pin="3" pintype="passive"/>
+      <node ref="Q2" pin="5" pintype="passive"/>
+    </net>
+    <net code="28" name="LED3">
+      <node ref="D21" pin="C" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="Q3" pin="3" pintype="passive"/>
+      <node ref="Q3" pin="5" pintype="passive"/>
+    </net>
+    <net code="29" name="LED4">
+      <node ref="D22" pin="C" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="Q4" pin="3" pintype="passive"/>
+      <node ref="Q4" pin="5" pintype="passive"/>
+    </net>
+    <net code="30" name="LED5">
+      <node ref="D23" pin="C" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q5" pin="3" pintype="passive"/>
+      <node ref="Q5" pin="5" pintype="passive"/>
+    </net>
+    <net code="31" name="LED6">
+      <node ref="D24" pin="C" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="Q6" pin="3" pintype="passive"/>
+      <node ref="Q6" pin="5" pintype="passive"/>
+    </net>
+    <net code="32" name="LED7">
+      <node ref="D25" pin="C" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="Q7" pin="3" pintype="passive"/>
+      <node ref="Q7" pin="5" pintype="passive"/>
+    </net>
+    <net code="33" name="LED8">
+      <node ref="D26" pin="C" pintype="passive"/>
+      <node ref="J3" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="Q8" pin="3" pintype="passive"/>
+      <node ref="Q8" pin="5" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(IC1-Pad1)">
+      <node ref="IC1" pin="1" pinfunction="TXD" pintype="input"/>
+      <node ref="U4" pin="4" pintype="output"/>
+    </net>
+    <net code="38" name="Net-(IC1-Pad4)">
+      <node ref="IC1" pin="4" pinfunction="RXD" pintype="output"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(IC1-Pad5)">
+      <node ref="IC1" pin="5" pinfunction="SPLIT" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(J2-Pad6)">
+      <node ref="J2" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(J2-Pad8)">
+      <node ref="J2" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(J4-Pad2)">
+      <node ref="J4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(J4-Pad4)">
+      <node ref="J4" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(J4-Pad6)">
+      <node ref="J4" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(J4-Pad8)">
+      <node ref="J4" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(J10-Pad2)">
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(J11-Pad2)">
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(R17-Pad1)">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U4" pin="1" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(R22-Pad1)">
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="U5" pin="1" pintype="passive"/>
+    </net>
+    <net code="52" name="PWM1">
+      <node ref="Q1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="Y7" pintype="tri_state"/>
+    </net>
+    <net code="53" name="PWM2">
+      <node ref="Q2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="Y6" pintype="tri_state"/>
+    </net>
+    <net code="54" name="PWM3">
+      <node ref="Q3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="Y5" pintype="tri_state"/>
+    </net>
+    <net code="55" name="PWM4">
+      <node ref="Q4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="Y4" pintype="tri_state"/>
+    </net>
+    <net code="56" name="PWM5">
+      <node ref="Q5" pin="1" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="Y3" pintype="tri_state"/>
+    </net>
+    <net code="57" name="PWM6">
+      <node ref="Q6" pin="1" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="Y2" pintype="tri_state"/>
+    </net>
+    <net code="58" name="PWM7">
+      <node ref="Q7" pin="1" pintype="passive"/>
+      <node ref="U2" pin="17" pinfunction="Y1" pintype="tri_state"/>
+    </net>
+    <net code="59" name="PWM8">
+      <node ref="Q8" pin="1" pintype="passive"/>
+      <node ref="U2" pin="18" pinfunction="Y0" pintype="tri_state"/>
+    </net>
+    <net code="60" name="VBUS">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J3" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="+VIN" pintype="input"/>
+    </net>
+    <net code="61" name="XPWM1">
+      <node ref="U1" pin="28" pinfunction="2.7" pintype="bidirectional"/>
+      <node ref="U2" pin="9" pinfunction="A7" pintype="input"/>
+    </net>
+    <net code="62" name="XPWM2">
+      <node ref="U1" pin="27" pinfunction="2.6" pintype="bidirectional"/>
+      <node ref="U2" pin="8" pinfunction="A6" pintype="input"/>
+    </net>
+    <net code="63" name="XPWM3">
+      <node ref="U1" pin="26" pinfunction="2.5" pintype="bidirectional"/>
+      <node ref="U2" pin="7" pinfunction="A5" pintype="input"/>
+    </net>
+    <net code="64" name="XPWM4">
+      <node ref="U1" pin="25" pinfunction="2.4" pintype="bidirectional"/>
+      <node ref="U2" pin="6" pinfunction="A4" pintype="input"/>
+    </net>
+    <net code="65" name="XPWM5">
+      <node ref="U1" pin="24" pinfunction="2.3" pintype="bidirectional"/>
+      <node ref="U2" pin="5" pinfunction="A3" pintype="input"/>
+    </net>
+    <net code="66" name="XPWM6">
+      <node ref="U1" pin="23" pinfunction="2.2" pintype="bidirectional"/>
+      <node ref="U2" pin="4" pinfunction="A2" pintype="input"/>
+    </net>
+    <net code="67" name="XPWM7">
+      <node ref="U1" pin="22" pinfunction="2.1" pintype="bidirectional"/>
+      <node ref="U2" pin="3" pinfunction="A1" pintype="input"/>
+    </net>
+    <net code="68" name="XPWM8">
+      <node ref="U1" pin="21" pinfunction="2.0" pintype="bidirectional"/>
+      <node ref="U2" pin="2" pinfunction="A0" pintype="input"/>
+    </net>
+    <net code="69" name="unconnected-(J8-Pad4)">
+      <node ref="J8" pin="4" pintype="passive+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(J8-Pad5)">
+      <node ref="J8" pin="5" pintype="passive+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(J8-Pad6)">
+      <node ref="J8" pin="6" pintype="passive+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(J9-Pad4)">
+      <node ref="J9" pin="4" pintype="passive+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(J9-Pad5)">
+      <node ref="J9" pin="5" pintype="passive+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(J9-Pad6)">
+      <node ref="J9" pin="6" pintype="passive+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U1-Pad2)">
+      <node ref="U1" pin="2" pinfunction="12.1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="12.2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U1-Pad4)">
+      <node ref="U1" pin="4" pinfunction="12.3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="12.4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="12.5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="12.6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U1-Pad8)">
+      <node ref="U1" pin="8" pinfunction="12.7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U1-Pad9)">
+      <node ref="U1" pin="9" pinfunction="1.7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U1-Pad18)">
+      <node ref="U1" pin="18" pinfunction="15.1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U1-Pad19)">
+      <node ref="U1" pin="19" pinfunction="15.0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U1-Pad31)">
+      <node ref="U1" pin="31" pinfunction="1.6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U1-Pad32)">
+      <node ref="U1" pin="32" pinfunction="0.7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U1-Pad33)">
+      <node ref="U1" pin="33" pinfunction="0.6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U1-Pad34)">
+      <node ref="U1" pin="34" pinfunction="0.5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U1-Pad35)">
+      <node ref="U1" pin="35" pinfunction="0.4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U1-Pad36)">
+      <node ref="U1" pin="36" pinfunction="0.3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U1-Pad37)">
+      <node ref="U1" pin="37" pinfunction="0.2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U1-Pad38)">
+      <node ref="U1" pin="38" pinfunction="0.1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U1-Pad39)">
+      <node ref="U1" pin="39" pinfunction="0.0" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
