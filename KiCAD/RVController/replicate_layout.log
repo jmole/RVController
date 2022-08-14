@@ -1,86 +1,122 @@
-08-06 13:25:38 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 295:Plugin executed on: 'darwin'
-08-06 13:25:38 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 296:Plugin executed with python version: '3.8.2 (v3.8.2:7b3ab5921f, Feb 24 2020, 17:52:18) \n[Clang 6.0 (clang-600.0.57)]'
-08-06 13:25:38 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 297:KiCad build version: (6.0.7-1)-1
-08-06 13:25:38 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 298:Plugin version: 1.1.2
-08-06 13:25:38 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 299:Frame repr: <wx._core.Frame object at 0x7fd4691481f0>
-08-06 13:25:38 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 323:Preparing replicator with D26 as a reference
-08-06 13:25:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 98:getting a list of all footprints on board
-08-06 13:25:38 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 351:source anchor footprint is 'D26'
-Located on: ['PWM8']
+08-08 16:58:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 295:Plugin executed on: 'darwin'
+08-08 16:58:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 296:Plugin executed with python version: '3.8.2 (v3.8.2:7b3ab5921f, Feb 24 2020, 17:52:18) \n[Clang 6.0 (clang-600.0.57)]'
+08-08 16:58:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 297:KiCad build version: (6.0.7-1)-1
+08-08 16:58:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 298:Plugin version: 1.1.2
+08-08 16:58:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 299:Frame repr: <wx._core.Frame object at 0x7fe8305b01f0>
+08-08 16:58:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 323:Preparing replicator with D14 as a reference
+08-08 16:58:39 com_github_MitjaNemec_ReplicateLayout.replicate_layout 98:getting a list of all footprints on board
+08-08 16:58:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 351:source anchor footprint is 'D14'
+Located on: ['PWM1']
 With filenames: ['pwm.kicad_sch']
-With sheet_id:['PWM8']
-08-06 13:25:38 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 358:Corresponding footprints are 
-[('D16', ['PWM1']), ('D14', ['PWM2']), ('D23', ['PWM5']), ('D24', ['PWM6']), ('D26', ['PWM8']), ('D25', ['PWM7']), ('D21', ['PWM3']), ('D22', ['PWM4'])]
-08-06 13:25:38 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 370:Showing dialog
-08-06 13:25:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 376:Toolbar position: wx.Point(1318, 97)
-08-06 13:25:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 382:Dialog position: wx.Point(954, 97)
-08-06 13:25:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:constructing a list of sheets suitable for replication on level:'PWM8', file:'pwm.kicad_sch'
-08-06 13:25:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 372:suitable sheets are:[['PWM1'], ['PWM2'], ['PWM3'], ['PWM4'], ['PWM5'], ['PWM6'], ['PWM7']]
-08-06 13:25:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:constructing a list of sheets suitable for replication on level:'PWM8', file:'pwm.kicad_sch'
-08-06 13:25:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 372:suitable sheets are:[['PWM1'], ['PWM2'], ['PWM3'], ['PWM4'], ['PWM5'], ['PWM6'], ['PWM7']]
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:constructing a list of sheets suitable for replication on level:'PWM8', file:'pwm.kicad_sch'
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 372:suitable sheets are:[['PWM1'], ['PWM2'], ['PWM3'], ['PWM4'], ['PWM5'], ['PWM6'], ['PWM7']]
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 145:Replicating layout
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 146:Starting replication of sheets: [['PWM1'], ['PWM2'], ['PWM3'], ['PWM4'], ['PWM5'], ['PWM6'], ['PWM7']]
-on level: ['PWM8']
-with tracks=True, zone=True, text=True, containing=False, remove=False, locked=False, by_group=False
-08-06 13:26:06 root 235:updating GUI message: 'Preparing for replication'
-08-06 13:26:06 root 240:updating GUI with: 0
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 215:Getting the list of source footprints
-08-06 13:26:06 root 240:updating GUI with: 0
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 230:Getting the list of all the remaining footprints
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 235:Getting nets local to source footprints
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 238:Getting source bounding box
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 242:Getting source tracks
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 257:Getting source zones
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 266:Getting source text items
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 275:Getting source drawing items
-08-06 13:26:06 root 235:updating GUI message: 'Replicating footprints'
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 669:Replicating footprints
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 675:Replicating footprints on sheet ['PWM1']
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 675:Replicating footprints on sheet ['PWM2']
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 675:Replicating footprints on sheet ['PWM3']
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 675:Replicating footprints on sheet ['PWM4']
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 675:Replicating footprints on sheet ['PWM5']
-08-06 13:26:06 root 240:updating GUI with: 71
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 675:Replicating footprints on sheet ['PWM6']
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 675:Replicating footprints on sheet ['PWM7']
-08-06 13:26:06 root 235:updating GUI message: 'Replicating tracks'
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Replicating tracks
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 841:Replicating tracks on sheet ['PWM1']
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 841:Replicating tracks on sheet ['PWM2']
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 841:Replicating tracks on sheet ['PWM3']
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 841:Replicating tracks on sheet ['PWM4']
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 841:Replicating tracks on sheet ['PWM5']
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 841:Replicating tracks on sheet ['PWM6']
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 841:Replicating tracks on sheet ['PWM7']
-08-06 13:26:06 root 235:updating GUI message: 'Replicating zones'
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 893:Replicating zones
-08-06 13:26:06 root 240:updating GUI with: 0
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 900:Replicating zones on sheet ['PWM1']
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 900:Replicating zones on sheet ['PWM2']
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 900:Replicating zones on sheet ['PWM3']
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 900:Replicating zones on sheet ['PWM4']
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 900:Replicating zones on sheet ['PWM5']
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 900:Replicating zones on sheet ['PWM6']
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 900:Replicating zones on sheet ['PWM7']
-08-06 13:26:06 root 235:updating GUI message: 'Replicating text'
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 963:Replicating text
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 970:Replicating text on sheet ['PWM1']
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 970:Replicating text on sheet ['PWM2']
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 970:Replicating text on sheet ['PWM3']
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 970:Replicating text on sheet ['PWM4']
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 970:Replicating text on sheet ['PWM5']
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 970:Replicating text on sheet ['PWM6']
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 970:Replicating text on sheet ['PWM7']
-08-06 13:26:06 root 235:updating GUI message: 'Replicating drawings'
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1003:Replicating drawings
-08-06 13:26:06 root 240:updating GUI with: 0
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1009:Replicating drawings on sheet ['PWM1']
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1009:Replicating drawings on sheet ['PWM2']
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1009:Replicating drawings on sheet ['PWM3']
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1009:Replicating drawings on sheet ['PWM4']
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1009:Replicating drawings on sheet ['PWM5']
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1009:Replicating drawings on sheet ['PWM6']
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1009:Replicating drawings on sheet ['PWM7']
-08-06 13:26:06 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 169:Replication complete
+With sheet_id:['PWM1']
+08-08 16:58:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 358:Corresponding footprints are 
+[('D26', ['PWM8']), ('D25', ['PWM7']), ('D24', ['PWM6']), ('D23', ['PWM5']), ('D22', ['PWM4']), ('D21', ['PWM3']), ('D16', ['PWM2']), ('D14', ['PWM1'])]
+08-08 16:58:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 370:Showing dialog
+08-08 16:58:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 376:Toolbar position: wx.Point(1131, 139)
+08-08 16:58:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 382:Dialog position: wx.Point(767, 139)
+08-08 16:58:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:constructing a list of sheets suitable for replication on level:'PWM1', file:'pwm.kicad_sch'
+08-08 16:58:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 372:suitable sheets are:[['PWM2'], ['PWM3'], ['PWM4'], ['PWM5'], ['PWM6'], ['PWM7'], ['PWM8']]
+08-08 16:58:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:constructing a list of sheets suitable for replication on level:'PWM1', file:'pwm.kicad_sch'
+08-08 16:58:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 372:suitable sheets are:[['PWM2'], ['PWM3'], ['PWM4'], ['PWM5'], ['PWM6'], ['PWM7'], ['PWM8']]
+08-08 16:58:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:constructing a list of sheets suitable for replication on level:'PWM1', file:'pwm.kicad_sch'
+08-08 16:58:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 372:suitable sheets are:[['PWM2'], ['PWM3'], ['PWM4'], ['PWM5'], ['PWM6'], ['PWM7'], ['PWM8']]
+08-08 16:58:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:constructing a list of sheets suitable for replication on level:'PWM1', file:'pwm.kicad_sch'
+08-08 16:58:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 372:suitable sheets are:[['PWM2'], ['PWM3'], ['PWM4'], ['PWM5'], ['PWM6'], ['PWM7'], ['PWM8']]
+08-08 16:58:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:constructing a list of sheets suitable for replication on level:'PWM1', file:'pwm.kicad_sch'
+08-08 16:58:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 372:suitable sheets are:[['PWM2'], ['PWM3'], ['PWM4'], ['PWM5'], ['PWM6'], ['PWM7'], ['PWM8']]
+08-08 16:58:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:constructing a list of sheets suitable for replication on level:'PWM1', file:'pwm.kicad_sch'
+08-08 16:58:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 372:suitable sheets are:[['PWM2'], ['PWM3'], ['PWM4'], ['PWM5'], ['PWM6'], ['PWM7'], ['PWM8']]
+08-08 16:58:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:constructing a list of sheets suitable for replication on level:'PWM1', file:'pwm.kicad_sch'
+08-08 16:58:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 372:suitable sheets are:[['PWM2'], ['PWM3'], ['PWM4'], ['PWM5'], ['PWM6'], ['PWM7'], ['PWM8']]
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:constructing a list of sheets suitable for replication on level:'PWM1', file:'pwm.kicad_sch'
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 372:suitable sheets are:[['PWM2'], ['PWM3'], ['PWM4'], ['PWM5'], ['PWM6'], ['PWM7'], ['PWM8']]
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 145:Replicating layout
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 146:Starting replication of sheets: [['PWM2'], ['PWM3'], ['PWM4'], ['PWM5'], ['PWM6'], ['PWM7'], ['PWM8']]
+on level: ['PWM1']
+with tracks=True, zone=True, text=True, containing=True, remove=True, locked=False, by_group=False
+08-08 16:59:18 root 235:updating GUI message: 'Preparing for replication'
+08-08 16:59:18 root 240:updating GUI with: 0
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 215:Getting the list of source footprints
+08-08 16:59:18 root 240:updating GUI with: 0
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 230:Getting the list of all the remaining footprints
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 235:Getting nets local to source footprints
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 238:Getting source bounding box
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 242:Getting source tracks
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 257:Getting source zones
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 266:Getting source text items
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 275:Getting source drawing items
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 177:Removing tracks and zones, before footprint placement
+08-08 16:59:18 root 235:updating GUI message: 'Removing zones and tracks'
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1052:Remove bounding box top:100625000, bottom:110485127, Left:118310000, Right:125806204
+08-08 16:59:18 root 240:updating GUI with: 14
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1052:Remove bounding box top:100625000, bottom:110485127, Left:125930000, Right:133426204
+08-08 16:59:18 root 240:updating GUI with: 28
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1052:Remove bounding box top:100625000, bottom:110485127, Left:133550000, Right:141046204
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1052:Remove bounding box top:100625000, bottom:110485127, Left:143075000, Right:150571204
+08-08 16:59:18 root 240:updating GUI with: 57
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1052:Remove bounding box top:100625000, bottom:110485127, Left:150695000, Right:158191204
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1052:Remove bounding box top:100625000, bottom:110485127, Left:158315000, Right:165811204
+08-08 16:59:18 root 240:updating GUI with: 85
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1052:Remove bounding box top:100625000, bottom:110485127, Left:165935000, Right:173431204
+08-08 16:59:18 root 235:updating GUI message: 'Replicating footprints'
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 669:Replicating footprints
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 675:Replicating footprints on sheet ['PWM2']
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 675:Replicating footprints on sheet ['PWM3']
+08-08 16:59:18 root 240:updating GUI with: 28
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 675:Replicating footprints on sheet ['PWM4']
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 675:Replicating footprints on sheet ['PWM5']
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 675:Replicating footprints on sheet ['PWM6']
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 675:Replicating footprints on sheet ['PWM7']
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 675:Replicating footprints on sheet ['PWM8']
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 185:Removing tracks and zones, after footprint placement
+08-08 16:59:18 root 235:updating GUI message: 'Removing zones and tracks'
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1052:Remove bounding box top:100625000, bottom:110485127, Left:118310000, Right:125806204
+08-08 16:59:18 root 240:updating GUI with: 14
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1052:Remove bounding box top:100625000, bottom:110485127, Left:125930000, Right:133426204
+08-08 16:59:18 root 240:updating GUI with: 28
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1052:Remove bounding box top:100625000, bottom:110485127, Left:133550000, Right:141046204
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1052:Remove bounding box top:100625000, bottom:110485127, Left:143075000, Right:150571204
+08-08 16:59:18 root 240:updating GUI with: 57
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1052:Remove bounding box top:100625000, bottom:110485127, Left:150695000, Right:158191204
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1052:Remove bounding box top:100625000, bottom:110485127, Left:158315000, Right:165811204
+08-08 16:59:18 root 240:updating GUI with: 85
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1052:Remove bounding box top:100625000, bottom:110485127, Left:165935000, Right:173431204
+08-08 16:59:18 root 235:updating GUI message: 'Replicating tracks'
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Replicating tracks
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 841:Replicating tracks on sheet ['PWM2']
+08-08 16:59:18 root 240:updating GUI with: 13
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 841:Replicating tracks on sheet ['PWM3']
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 841:Replicating tracks on sheet ['PWM4']
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 841:Replicating tracks on sheet ['PWM5']
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 841:Replicating tracks on sheet ['PWM6']
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 841:Replicating tracks on sheet ['PWM7']
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 841:Replicating tracks on sheet ['PWM8']
+08-08 16:59:18 root 235:updating GUI message: 'Replicating zones'
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 893:Replicating zones
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 900:Replicating zones on sheet ['PWM2']
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 900:Replicating zones on sheet ['PWM3']
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 900:Replicating zones on sheet ['PWM4']
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 900:Replicating zones on sheet ['PWM5']
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 900:Replicating zones on sheet ['PWM6']
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 900:Replicating zones on sheet ['PWM7']
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 900:Replicating zones on sheet ['PWM8']
+08-08 16:59:18 root 235:updating GUI message: 'Replicating text'
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 963:Replicating text
+08-08 16:59:18 root 240:updating GUI with: 0
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 970:Replicating text on sheet ['PWM2']
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 970:Replicating text on sheet ['PWM3']
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 970:Replicating text on sheet ['PWM4']
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 970:Replicating text on sheet ['PWM5']
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 970:Replicating text on sheet ['PWM6']
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 970:Replicating text on sheet ['PWM7']
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 970:Replicating text on sheet ['PWM8']
+08-08 16:59:18 root 235:updating GUI message: 'Replicating drawings'
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1003:Replicating drawings
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1009:Replicating drawings on sheet ['PWM2']
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1009:Replicating drawings on sheet ['PWM3']
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1009:Replicating drawings on sheet ['PWM4']
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1009:Replicating drawings on sheet ['PWM5']
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1009:Replicating drawings on sheet ['PWM6']
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1009:Replicating drawings on sheet ['PWM7']
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1009:Replicating drawings on sheet ['PWM8']
+08-08 16:59:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 169:Replication complete
