@@ -2394,8 +2394,8 @@
     (pin "2" (uuid 4ebb8cb1-76f4-4d6c-aa6e-7352eaae89c8))
     (pin "4" (uuid cf1f1a23-29c4-479e-ac87-dfbb54e22310))
     (pin "8" (uuid b747f5a5-8592-433a-b891-40b2827c0d2e))
-    (pin "C" (uuid b67c5f66-dc44-4fee-927c-e193b052f69e))
-    (pin "C" (uuid b67c5f66-dc44-4fee-927c-e193b052f69e))
+    (pin "C" (uuid b67c5f66-dc44-4fee-927c-e193b052f69f))
+    (pin "C" (uuid b67c5f66-dc44-4fee-927c-e193b052f69f))
   )
 
   (symbol (lib_id "Device:C_Polarized") (at 20.32 262.89 0) (unit 1)
@@ -3119,22 +3119,6 @@
     (pin "4" (uuid b68fda56-e52c-4015-8215-bb01e909aa9c))
   )
 
-  (symbol (lib_id "power:GND") (at 35.56 76.2 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid bbe4ce6b-0abf-4fdf-94bb-f50249d7d217)
-    (property "Reference" "#PWR04" (id 0) (at 35.56 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (id 1) (at 35.56 81.28 0))
-    (property "Footprint" "" (id 2) (at 35.56 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 35.56 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f4584c29-a17b-4d26-aa4b-9ac0bcfc22c0))
-  )
-
   (symbol (lib_id "Mechanical:MountingHole") (at 335.28 229.87 0) (unit 1)
     (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid bfa32192-5b21-496a-9b92-6fdd025d263e)
@@ -3713,9 +3697,6 @@
     )
     (path "/77946e59-9a03-4fd0-906e-234c0e806d8d"
       (reference "#PWR03") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/bbe4ce6b-0abf-4fdf-94bb-f50249d7d217"
-      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
     )
     (path "/6b269d09-32a8-4c94-9eeb-9c234b90b040"
       (reference "#PWR05") (unit 1) (value "GND") (footprint "")
