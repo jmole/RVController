@@ -1,0 +1,8 @@
+{
+    "sketch": "can_controller.ino",
+    "configuration": "flash=2097152_0,freq=133,opt=Small,rtti=Disabled,stackprotect=Disabled,exceptions=Disabled,dbgport=Disabled,dbglvl=None,usbstack=tinyusb,ipbtstack=ipv4only,boot2=boot2_w25q16jvxq_4_padded_checksum,uploadmethod=default",
+    "board": "rp2040:rp2040:generic",
+    "libraries": [
+        "Longan_Labs_Arduino_CAN_Bus_Library_for_MCP2515"
+    ]
+}

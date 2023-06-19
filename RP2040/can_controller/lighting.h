@@ -63,6 +63,7 @@ private:
   ButtonState bs = ButtonState::Idle;
   bool previously_pressed;
   unsigned long last_time;
+  bool no_groups = false;
 public:
   BSMachine()
     : bs(ButtonState::Idle) {}
@@ -71,6 +72,9 @@ public:
   BSMachine& operator=(const BSMachine& bsm) {
     bs = bsm.bs;
     return *this;
+  }
+  void set_no_groups(bool no_groups) {
+    this->no_groups = no_groups;
   }
   ButtonState state() {
     return bs;
@@ -116,7 +120,7 @@ public:
 
       case ButtonState::DownUp:
         if (!pressed) {
-          if (timer > uptime) {
+          if (no_groups | (timer > uptime)) {
             bs = ButtonState::Switching;
           }
         } else {  //if pressed
@@ -267,10 +271,13 @@ public:
 
 class Light {
   uint8_t channel;
+  uint8_t pwm;
+  uint8_t pwm2;
   LEDController& controller;
 public:
   Light(LEDController& controller, uint8_t channel);
   virtual void set_pwm(uint8_t value);
+  virtual void set_pwm2(uint8_t value);
   virtual uint8_t get_pwm();
 };
 
@@ -381,14 +388,21 @@ class Button {
   Dimmer* self;
   Dimmer* group;
   Dimmer* all; 
+  bool no_groups;
 public:
-  Button(LEDController *controller, uint8_t channel, Dimmer* self = nullptr, Dimmer* group = nullptr, Dimmer* all = nullptr) : 
+  Button(LEDController *controller, uint8_t channel, Dimmer* self = nullptr, Dimmer* group = nullptr, Dimmer* all = nullptr, bool no_groups=false) : 
       controller(controller), 
       channel(channel),
       self(self? self : &no_dimmer),
       group(group? group :&no_dimmer),
-      all(all? all : &no_dimmer) {}
+      all(all? all : &no_dimmer) {
+    bsm.set_no_groups(no_groups);
+  }
   
+  void disable_groups() {
+    bsm.set_no_groups(true);
+  }
+
   void setController(LEDController *controller) {
     this->controller = controller;
   }
@@ -413,10 +427,10 @@ public:
   bool update(bool pressed) {
     bool state_changed = bsm.update(pressed);
     if (state_changed) {
-      Serial.print("Button ");
-      Serial.print(channel);
-      Serial.print(" state changed to ");
-      Serial.println(bsm.stateString().c_str());
+      //Serial.print("Button ");
+      //Serial.print(channel);
+      //Serial.print(" state changed to ");
+      //Serial.println(bsm.stateString().c_str());
     }
     switch (bsm.state()) {
       case ButtonState::Switching:
@@ -546,8 +560,8 @@ struct LEDController {
       bool button_status = (cs.buttons & (1<<i)) == (1<<i);
       bool state_changed = buttons[i].update(button_status);
       if (state_changed){
-        //Serial.println(buttons[i].stateString().c_str());
-        //printStatus();
+        Serial.println(buttons[i].stateString().c_str());
+        printStatus();
       }
     }
   }
@@ -579,10 +593,17 @@ struct LEDController {
 
 Light::Light(LEDController& controller, uint8_t channel) : 
       controller(controller), 
-      channel(channel) {}
+      channel(channel),
+      pwm(0),
+      pwm2(0) {}
 void Light::set_pwm(uint8_t value) {
-    controller.led_pwm[channel] = value;
+    pwm = value;
+    controller.led_pwm[channel] = max(pwm, pwm2);
+  }
+void Light::set_pwm2(uint8_t value) {
+    pwm2 = value;
+    controller.led_pwm[channel] = max(pwm, pwm2);
   }
 uint8_t Light::get_pwm() {
-    return controller.led_pwm[channel];
+    return pwm;
   }

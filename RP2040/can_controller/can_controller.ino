@@ -14,17 +14,18 @@ static const uint8_t CAN_LED_MSG_PREFIX = 0x20;
 static const uint8_t CAN_STATUS_MSG_PREFIX = 0x10;
 
 
-LEDController controllers[5] = {LEDController(0),LEDController(1),LEDController(2),LEDController(3),LEDController(4)};
+LEDController controllers[5] = { LEDController(0), LEDController(1), LEDController(2), LEDController(3), LEDController(4) };
 int16_t controller_leds[5][8];
-CircularIterator<LEDController,5> c_iter(controllers);
+CircularIterator<LEDController, 5> c_iter(controllers);
 byte send_buffer[8];
 
 
 MCP_CAN CAN(SPI_CS_PIN);  // Set CS pin
 
 void setup() {
+  delay (100);
   Serial.begin(115200);
-  delay(4000);
+  delay(100);
   Serial.println("Hello!");
 
   // set SPI pins
@@ -53,7 +54,7 @@ void loop() {
     int c = ctrl.address;
     // load led data
     for (int i = 0; i < ctrl.num_leds; ++i)
-      send_buffer[i] = controller_leds[c][i]>>lpf_shift;
+      send_buffer[i] = controller_leds[c][i] >> lpf_shift;
     uint8_t message_id = ctrl.address | CAN_LED_MSG_PREFIX;
     CAN.sendMsgBuf(message_id, 0, ctrl.num_leds, send_buffer);
     uint8_t int_flag_register = CAN.mcp2515_readRegister(MCP_CANINTF);
@@ -83,9 +84,6 @@ void loop() {
 int k = 0;
 int lpf_cabin_lights = 0;
 
-vector<vector<uint8_t>> cabin_lights   = { { 0, 4 }, {1, 5}, {2, 3} };
-vector<vector<uint8_t>> overhead_lights = { { 0, 5 }, {1, 6}, {2, 4} };
-
 vector<Light*> _lc(int c, int i) {
   return { &(controllers[c].lights[i]) };
 }
@@ -104,6 +102,11 @@ vector<Light*> _l(vector<vector<int>> index) {
 Button& _b(int c, int i) {
   return controllers[c].buttons[i];
 }
+
+vector<vector<int>> cabin_lights = { { 0, 4 }, { 1, 5 }, { 2, 3 } };
+vector<vector<int>> overhead_lights = { { 0, 5 }, { 1, 6 }, { 2, 4 } };
+auto cabin = _l(cabin_lights);
+auto overhead = _l(overhead_lights);
 
 void setup1() {
   for (int c = 0; c < 3; c++) {
@@ -157,48 +160,51 @@ void light_button_mapping() {
   _b(2, 1).setAll(all);
   _b(2, 2).setAll(all);
   // buttons near touchscreen
-  _b(4,0).setSelf(all);
-  _b(4,0).setGroup(all);
-  _b(4,0).setAll(all);
-  _b(4,1).setSelf(all);
-  _b(4,1).setGroup(all);
-  _b(4,1).setAll(all);
-  _b(4,2).setSelf(all);
-  _b(4,2).setGroup(all);
-  _b(4,2).setAll(all);
 
+  _b(4, 0).setSelf(all);
+  _b(4, 0).setGroup(all);
+  _b(4, 0).setAll(all);
+  _b(4, 0).disable_groups();
+  _b(4, 1).setSelf(cabin);
+  _b(4, 1).setGroup(cabin);
+  _b(4, 1).setAll(cabin);
+  _b(4, 1).disable_groups();
+  _b(4, 2).setSelf(overhead);
+  _b(4, 2).setGroup(overhead);
+  _b(4, 2).setAll(overhead);
+  _b(4, 2).disable_groups();
 }
 
 
 void loop1() {
-  int outputVal = map(controllers[0].cs.adc_values[0], 70, 180, 0, 200);
+
+
+  int outputVal = map(controllers[0].cs.adc_values[0], 70, 180, 0, 150);
   //int outputVal = map(controllers[0].cs.adc_values[0], 30, 255, 0, 255);
   // constrain output value to 0-255 range
   outputVal = constrain(outputVal, 0, 255);
-  constrain(outputVal, 0, 255);
-  for (auto i : cabin_lights) {
-    controllers[i[0]].led_pwm[i[1]] = outputVal;
+  for (auto lp : cabin) {
+    lp->set_pwm2(outputVal);
   }
-  outputVal = map(outputVal,0,255, 0, 120);
-  for (auto i : overhead_lights) {
-    controllers[i[0]].led_pwm[i[1]] = outputVal;
+  outputVal = map(outputVal, 0, 255, 0, 120);
+  for (auto lp : overhead) {
+    lp->set_pwm2(outputVal);
   }
-  
 
   while (rp2040.fifo.available()) {
     uint32_t addr = rp2040.fifo.pop();
     controllers[addr].update_buttons();
   }
 
-  for (int i=0; i<4; ++i)
-    for (int j=0; j<8; ++j) {
+  for (int i = 0; i < 4; ++i)
+    for (int j = 0; j < 8; ++j) {
       controller_leds[i][j] += controllers[i].led_pwm[j];
       controller_leds[i][j] -= controller_leds[i][j] >> lpf_shift;
     }
-      
 
 
-  delay(1);  
+
+  delay(1);
 }
 
 
